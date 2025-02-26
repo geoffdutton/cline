@@ -11,7 +11,7 @@ import {
 } from "../../shared/api"
 import { convertToOpenAiMessages } from "../transform/openai-format"
 import { ApiStream } from "../transform/stream"
-import { ChatCompletionReasoningEffort } from "openai/resources/chat/completions.mjs"
+import { ChatCompletionReasoningEffort } from "openai/resources/chat/completions"
 
 export class OpenAiNativeHandler implements ApiHandler {
 	private options: ApiHandlerOptions
